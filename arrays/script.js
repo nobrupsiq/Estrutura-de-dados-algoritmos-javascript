@@ -52,3 +52,31 @@ Array.prototype.reIndex = (myArray) => {
 };
 const resultado = `Array com o método reIndex: ${numbers.reIndex(numbers)}`;
 console.log(resultado);
+
+// Array bidimensional
+const averageTemp = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [10, 11, 12],
+];
+
+for (let i = 0; i < averageTemp.length; i++) {
+    for (let j = 0; j < averageTemp[i].length; j++) {
+        averageTemp[i][j];
+    }
+}
+
+// Arrays multidimensionais
+const matrix = (arr) => {
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            for (let z = 0; z < arr[i][j].length; z++) {
+                console.log(arr[i][j][z]);
+            }
+        }
+    }
+};
+const isEven = (x) => (x % 2 == 0 ? 'GOOD!' : 'AAAAAA!');
+
+// Map e filter
